@@ -17,7 +17,7 @@ const Service = ({ service }) => {
             <h2>{service.name}</h2>
             <h4>Price: {price}</h4>
             <p>{description}</p>
-            <button onClick={() => handleServiceDetails(id)} className='btn btn-primary'>Book {name}</button>
+            <button onClick={() => handleSericeDetails(id)} className='btn btn-primary'>Book {name}</button>
         </div>
     );
 };
